@@ -1,0 +1,10 @@
+127.0.0.1 - - [15/Jul/2023:14:11:25 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:11:26 +0000] "GET /FlyAway/ HTTP/1.1" 200 1884
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:11:26 +0000] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:12:20 +0000] "GET /FlyAway//login HTTP/1.1" 200 735
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:12:20 +0000] "POST /FlyAway//loginaction?email_id=john@gmail.com&pwd=123 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:12:20 +0000] "GET /FlyAway//dashboard HTTP/1.1" 200 402
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:12:20 +0000] "GET /FlyAway//home HTTP/1.1" 200 2004
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:12:20 +0000] "GET /FlyAway/?source=1&destination=4 HTTP/1.1" 200 1788
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:12:20 +0000] "GET /FlyAway//bookflight?id=3 HTTP/1.1" 200 794
+0:0:0:0:0:0:0:1 - - [15/Jul/2023:14:12:21 +0000] "GET /FlyAway//completepurchase HTTP/1.1" 200 616

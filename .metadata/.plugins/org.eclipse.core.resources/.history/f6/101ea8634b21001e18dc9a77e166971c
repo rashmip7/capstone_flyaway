@@ -1,0 +1,27 @@
+package testPage;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import HomePageObject.registrationPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class TestRegistrationPage {
+	WebDriver driver;
+	
+	registrationPage objectrepo;
+	
+	@test
+	public void setup() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get("");
+	}
+
+
+}

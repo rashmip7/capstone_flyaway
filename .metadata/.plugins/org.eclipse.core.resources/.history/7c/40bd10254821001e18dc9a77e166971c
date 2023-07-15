@@ -1,0 +1,26 @@
+package HomePageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class registrationPage {
+WebDriver driver;
+	
+	public registrationPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	//to singup  link
+		@FindBy(xpath="/html/body/form/table/tbody/tr[3]/td/a") public WebElement singuplink;
+		
+	//Email Id
+		@FindBy(name="email_id") public WebElement emailid;
+		
+		@FindBy(name="pwd") public WebElement password;
+		@FindBy(name="pwd2") public WebElement confirmpassword;
+		@FindBy(name="name") public WebElement name;
+		@FindBy(name="") public WebElement password;
+}

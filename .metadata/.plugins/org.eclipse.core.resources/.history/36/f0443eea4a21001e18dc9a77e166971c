@@ -1,0 +1,15 @@
+package testPage;
+
+import org.openqa.selenium.WebDriver;
+
+import HomePageObject.registrationPage;
+
+public class TestRegistrationPage {
+	WebDriver driver;
+	
+	registrationPage objectrepo;
+	
+	@test
+
+
+}
